@@ -43,6 +43,7 @@ font-family: 'Raleway', sans-serif; */
     font-size: 22px;
     font-weight: normal;
     font-weight: normal;
+    text-align: justify;
     line-height: 2;
     margin-bottom: 20px;
     padding-bottom: -8px;
@@ -89,21 +90,23 @@ font-family: 'Raleway', sans-serif; */
 
 /* skills */
 .skills {
-    text-align: justify;
+    text-align: center;
 }
+
 .skills-item {
     display: inline-block;
+    text-align: center;
     width: auto;
     height: auto;
     padding-left: 1%;
     padding-right: 1%;
+    margin-left: 50px;
     margin-bottom: 4px;
     background:#aba3a0;
     border-radius: 5px;
 }
 .skills-list {
     list-style: none;
-    /* padding-left: 10px; */
     padding-top: -10px;
     padding-bottom: 15px;
 }
